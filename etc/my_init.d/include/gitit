@@ -1,0 +1,19 @@
+# -*- mode: sh -*-
+
+GITIT_USER="gitit"
+GITIT_GROUP="gitit"
+GITIT_DIR="/gitit"
+GITIT_BINENV="/etc/service/gitit/env"
+
+# GITIT_DIRECTORY /gitit
+# GITIT_REPOSITORY /gitit/www/wikidata
+# GITIT_DIR_REPO /gitit/www/wikidata
+# GITIT_CONF gitit.conf
+# GITIT_PORT 5001
+# SSH_PORT 22
+# SSH_AUTHORIZED_KEYS ${GITIT_DIRECTORY}/etc/authorized_keys
+# GITIT_THEME ${A_GITIT_THEME}
+# GITIT_THEME_URL ${A_GITIT_THEME_URL}
+# GITIT_THEME_BRANCH ${A_GITIT_THEME_BRANCH}
+# GITIT_THEME_DIR ${A_GITIT_THEME_DIR}
+# GITIT_THEME_ACTIVE default
