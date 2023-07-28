@@ -60,11 +60,15 @@ This container will setup the `/gitit` directory like this (so it can be split i
 - `var/cache/` for cache,
 - `var/logs/` for `gitit.log`
 - `var/lib/` for `gitit-users`
-- `var/www/` for `static/`, `templates/` and `wikidata/` (git repo)
+- `var/www/` for `static/`, `templates/` and `wikidata/` (git repo).
 
 These paths will be applied to the config file by patching it. You can modify
-the conf file (but the port and patched paths) and let the container to rebuild your
-repo as desired.
+the conf file (but the port and patched paths) and let the container to rebuild
+your repo as desired.
+
+The container will read the owner/group of the `/gitit/etc/` or the `/gitit`
+directory , and will apply this ownership to all the files in the `/gitit`
+directory.
 
 ## License
 
